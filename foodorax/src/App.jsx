@@ -24,7 +24,7 @@ function App() {
       <CartProvider>
         <BrowserRouter>
           <ScrollToTop /> {/* Reset Scroll */}
-          <div className="min-h-screen bg-gray-50 flex flex-col">
+          <div className="min-h-screen bg-gray-50 flex flex-col bg-dot-pattern bg-fixed">
             <Toaster position="top-center" reverseOrder={false} />
             <Navbar />
             <div className="flex-grow">

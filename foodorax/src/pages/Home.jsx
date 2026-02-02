@@ -7,7 +7,7 @@ import InfoSection from "../components/home/InfoSection";
 
 const Home = () => {
     return (
-        <div className="bg-white">
+        <div className="">
             {/* 20 Sections Structure Implementation */}
 
             {/* 1. Navbar - Global */}

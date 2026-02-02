@@ -11,7 +11,7 @@ const Navbar = () => {
     const isActive = (path) => location.pathname === path;
 
     return (
-        <nav className="bg-primary text-white sticky top-0 z-50 shadow-lg font-sans">
+        <nav className="bg-primary/95 backdrop-blur-md text-white sticky top-0 z-50 shadow-lg font-sans border-b border-white/10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
@@ -83,8 +83,8 @@ const Navbar = () => {
                                 onClick={() => setOpen(false)}
                                 to={path}
                                 className={`block text-lg font-medium px-4 py-2 rounded-lg transition-all duration-300 ${isActive(path)
-                                        ? "bg-white/10 text-accent pl-6"
-                                        : "text-white/90 hover:bg-white/5 hover:pl-6 hover:text-accent"
+                                    ? "bg-white/10 text-accent pl-6"
+                                    : "text-white/90 hover:bg-white/5 hover:pl-6 hover:text-accent"
                                     }`}
                             >
                                 {item}

@@ -13,6 +13,8 @@ const PromoSection = () => {
                         key={offer.id}
                         className={`${offer.bg} rounded-3xl p-6 text-white shadow-lg relative overflow-hidden transform hover:scale-[1.02] transition-transform duration-300`}
                     >
+                        {/* Texture Overlay */}
+                        <div className="absolute inset-0 bg-dot-pattern opacity-10 pointer-events-none"></div>
                         <div className="absolute top-0 right-0 w-24 h-24 bg-white opacity-10 rounded-full -mr-10 -mt-10"></div>
                         <div className="absolute bottom-0 left-0 w-16 h-16 bg-white opacity-10 rounded-full -ml-8 -mb-8"></div>
 

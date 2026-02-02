@@ -8,7 +8,9 @@ const Footer = () => {
     };
 
     return (
-        <footer className="bg-gray-900 text-gray-300 pt-16 pb-8 border-t border-gray-800 relative">
+        <footer className="bg-gray-900 text-gray-300 pt-16 pb-8 border-t border-gray-800 relative overflow-hidden">
+            {/* Texture Overlay */}
+            <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
 
             {/* Back to Top Button */}
             <button

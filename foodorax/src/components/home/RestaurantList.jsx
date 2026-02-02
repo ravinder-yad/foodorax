@@ -11,7 +11,7 @@ const restaurants = [
 
 const RestaurantList = ({ title }) => {
     return (
-        <div className="w-full px-4 md:px-12 py-12 bg-white">
+        <div className="w-full px-4 md:px-12 py-12">
             <div className="flex justify-between items-end mb-8">
                 <div>
                     <span className="text-primary font-bold uppercase tracking-wider text-sm">Best in Town</span>

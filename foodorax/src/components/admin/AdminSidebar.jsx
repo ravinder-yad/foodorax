@@ -15,7 +15,7 @@ const AdminSidebar = () => {
     return (
         <div className="w-64 bg-gray-900 min-h-screen text-white fixed left-0 top-0 flex flex-col p-4 z-50">
             <h1 className="text-2xl font-extrabold mb-10 text-center tracking-wider">
-                Admin<span className="text-primary">Panel</span>
+                Admin<span className="text-primary" >Panel</span>
             </h1>
 
             <nav className="flex-1 space-y-2">
